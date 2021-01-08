@@ -32,7 +32,7 @@ export default class FooterBtn extends Component{
         return(
             <form className='footer-btn d-flex' onSubmit={this.onSubmit}>
                 <button className='btn btn-info btn-outline-warning footer-btn-item'>Enter</button>
-                <input type='text' placeholder='enter some' className='form-control footer-input' onChange={this.onLabelChange} value={this.state.label}/>
+                <input type='text' placeholder='new task' className='form-control footer-input' onChange={this.onLabelChange} value={this.state.label}/>
             </form>
         )
     }

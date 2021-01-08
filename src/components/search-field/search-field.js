@@ -21,7 +21,7 @@ export default class SearchField extends Component{
 
     return (
       <div className='search-field'>
-        <input placeholder='enter password' className='search-input' value={this.state.term} onChange={this.newValue}/>
+        <input placeholder='filter field' className='search-input' value={this.state.term} onChange={this.newValue}/>
         <ItemStatusFilter filter={filter} onFilterChange={onFilterChange}/>
       </div>  
     );
